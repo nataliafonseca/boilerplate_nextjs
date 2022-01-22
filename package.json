@@ -9,6 +9,7 @@
     "prepare": "husky install",
     "test": "jest --passWithNoTests",
     "test:watch": "yarn test --watch",
+    "test:ci": "jest --runInBand",
     "generate": "yarn plop --plopfile ./generators/plopfile.js",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
